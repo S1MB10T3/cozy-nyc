@@ -1,0 +1,10 @@
+###Rust
+#Diesel Migrations
+backend/migrations
+#debugging
+backend/target  
+
+
+###Node
+
+frontend/node_modules

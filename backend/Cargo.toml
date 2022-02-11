@@ -1,0 +1,23 @@
+
+[package]
+name = "comfy"
+version = "0.1.0"
+authors = ["Juan Jimenez <mshj@protonmail.com>"]
+edition = "2021"
+
+[lib]
+name = "comfy"
+path = "src/lib.rs"
+
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+#rocket_codegen = "0.4.10"
+diesel = { version = "1.0.0", features = ["postgres"] }
+dotenv = "0.15.0"
+#r2d2-diesel = "1.0"
+#r2d2 = "0.8"
+#serde = "1.0"
+#serde_derive = "1.0"
+#serde_json = "1.0"
+
